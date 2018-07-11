@@ -8,6 +8,7 @@ import org.springframework.context.ApplicationContext;
 public class Application {
 
 	public static void main(String[] args) {
+		System.out.println("Tset");
 		ApplicationContext ctx = SpringApplication.run(Application.class, args);
 
 	}
